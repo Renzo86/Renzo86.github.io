@@ -34,7 +34,7 @@ p {
   line-height: 1.5;
 }
 .wrapper {
-  background: #42A8C0;
+  background: #F5F8F9FA;
   max-width: 960px;
   margin: 0 auto;
   position: relative;
@@ -50,6 +50,7 @@ p {
   height: 100%;
   min-height: 800px;
   color: #fff;
+  border-radius: 0 0 10px 0;
 }
 .sidebar-wrapper a {
   color: #fff;
@@ -59,6 +60,7 @@ p {
   background: rgba(0, 0, 0, 0.2);
   text-align: center;
   color: #fff;
+  border-radius: 0 10px 0 0;
 }
 .sidebar-wrapper .name {
   font-size: 32px;
@@ -147,6 +149,8 @@ p {
   background: #fff;
   padding: 60px;
   padding-right: 300px;
+  border: 2px;
+  border-radius: 10px 0 0 10px;
 }
 .main-wrapper .section-title {
   text-transform: uppercase;
